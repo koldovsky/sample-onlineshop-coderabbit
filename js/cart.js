@@ -1,7 +1,7 @@
 import { ProductsService } from './products-service.js';
 import { showAlert } from './alert.js';
 
-export class Cart {
+export lass Cart {
   constructor() {
     if (Cart._instance) return Cart._instance;
     Cart._instance = this;
